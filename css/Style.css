@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    
+}
+
+.logo{
+    position: relative;
+    padding-top: 52px;
+    margin-left: 56px;
+}
+
+#texto-header{
+    margin-top: 35px;
+    font-size: 17px;
+    margin-left: 172px;
+}
+
+#titulo-header {
+    margin-top: 50px;
+    margin-left: 172px;
+}
+
+.menu-superior {
+    height: 470px;
+    background-image: url(../Imagens/back-inicio.svg);
+    color: white;
+}
+
+.menu-informacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icones{
+    margin: 50px 0px 50px 75px;
+    padding: 10px;
+}
+
+.texto-informativo{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+#titulo-video{
+    padding-top: 50px ;
+    color: #247BA0;
+    font-size: 35px
+    
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+}
+
+#titulo-carrossel{
+    padding: 50px;
+    text-align: center;
+    color: #EAECE5;
+}
+
+#cards{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 100px;
+    padding-bottom: 80px;
+}
+
+
+#seta-esquerda{
+    display: none;
+    margin-left: -95px;
+    margin-top: 55px;
+}
+
+#bruna{
+    margin-left: -85px;
+    display: none;
+}
+
+.seta{
+    cursor: pointer;
+    margin-top: 43%;
+}
+
+.seta:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+.formulario{
+    text-align: center;
+    height: 360px;
+}
+
+#titulo-formulario{
+    color: #383838;
+    margin-top: 23px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    background-color: #EAECE5;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    color: #EAECE5;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #3d8eb4;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 15px 2px gray;
+    transition-duration: 0.3s;
+}
+
+input:hover {
+    border: 1px solid rgb(100, 99, 99);
+}
